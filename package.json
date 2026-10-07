@@ -1,0 +1,19 @@
+{
+  "name": "poetry-moment",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/preview.mjs"
+  },
+  "dependencies": {
+    "pinyin-pro": "^3.27.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.0",
+    "drizzle-orm": "^0.44.0",
+    "miniflare": "4.20250712.0"
+  }
+}
